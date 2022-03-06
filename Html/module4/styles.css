@@ -1,0 +1,160 @@
+body {
+    width: 1100px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    margin-top: 38px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 34px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #0f0101;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 11px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+h2 {
+    color: #515151;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 81px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    margin-bottom: 30px;
+    width: 255px;
+    cursor: pointer;
+}
+
+.card-img {
+    width: 255px;
+    height: 264px;
+    background-color: #e9f0fd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img div {}
+
+.card-p {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    text-align: center;
+    background-color: #323232;
+
+
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.card-p-text {
+    margin-left: 12px;
+}
+
+.card-p-price {
+    background-color: rgba(255, 255, 255, 0.44);
+    width: 54px;
+    text-align: center;
+}
+
+.card:hover .card-p {
+    background-color: #1abc9c;
+}
+
+.icon {
+    width: 350px;
+    color: #555252;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: -0.36px;
+    line-height: normal;
+    margin-bottom: 80px;
+}
+
+.icon-h::after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icon-btn button {
+    width: 159px;
+    height: 51px;
+    background-color: #4ec6ab;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.icon-btn button:hover {
+    background-color: green;
+}
