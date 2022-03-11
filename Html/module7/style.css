@@ -1,0 +1,233 @@
+header {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto 120px;
+}
+
+.logo {
+    line-height: 60px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+
+    margin-left: 56px;
+}
+
+li a {
+    text-decoration: none;
+    color: #95e1d3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 300ms linear;
+}
+
+li:hover a {
+    color: #fed136;
+}
+
+h2 {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+h4 {
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+
+.contacts-h {
+    color: #ffffff;
+    padding-top: 110px;
+}
+
+.service {
+    width: 75%;
+    margin: auto;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.service-card {
+    width: 33%;
+}
+
+.service-card-img {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.service-card-p1 {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: center;
+    margin: 0 0 12px 0;
+}
+
+.service-card-p2 {
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.contacts {
+    color: #ffffff;
+    width: 1402px;
+    height: 676px;
+    background-color: #222222;
+    background-image: url(/Html/module7/img/Map_Image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forms-input {
+    width: 455px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+input {
+    width: 455px;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0 0 32px 0;
+    border: none;
+    color: #bbbbbb;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-left: 16px;
+}
+
+input::placeholder {
+    color: #bbbbbb;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+textarea::placeholder {
+    color: #bbbbbb;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+textarea {
+    width: 455px;
+    height: 193px;
+    background-color: #ffffff;
+    border: none;
+    color: #bbbbbb;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
+.forms-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.forms-btn-2 {
+    width: 240px;
+    background-color: #fed136;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    transition: all 250ms linear;
+}
+
+.forms-btn-2:hover {
+    background-color: #777777;
+    color: black;
+}
+
+.valid:valid:focus {
+    outline: 3px solid green;
+}
+
+.valid:invalid:focus {
+    outline: 3px solid red;
+}
+
+.valid:focus {
+    outline: none;
+}
