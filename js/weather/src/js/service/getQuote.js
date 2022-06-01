@@ -5,10 +5,9 @@ import { error } from '@pnotify/core';
 async function getQuote() {
   try {
     const dataQuote = await axios.get(
-      `https://zenquotes.io?api=quotes&key=239169433358fa1fa9f8be124a7fdb3d182281a2&option1=value&option2=value`,
+      'https://goquotes-api.herokuapp.com/api/v1/random?count=50',
     );
-    console.log(dataQuote);
-    changeQuote(dataQuote.data);
+    changeQuote(dataQuote.data.quotes);
   } catch (err) {
     error({
       text: `Ooops! ${err.message}`,

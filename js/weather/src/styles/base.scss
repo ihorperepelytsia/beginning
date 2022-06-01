@@ -45,3 +45,8 @@ body {
       url(../images/backgroundBody/desktop_background.png);
   }
 }
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}

@@ -179,13 +179,13 @@
     min-height: 180px;
     color: #ffffff;
     font-family: Lato;
-    margin-left: 75px;
+    padding: 10px;
 
     &__text {
       font-size: 14px;
       font-style: italic;
       line-height: 21px;
-      text-align: right;
+      text-align: center;
       margin: 0 0 16px 0;
     }
 
@@ -288,7 +288,6 @@
       }
     }
     &-quote {
-      margin-left: 96px;
       margin-bottom: 74px;
 
       &__text {
@@ -307,27 +306,52 @@
     width: 100%;
 
     &-weather {
-      width: 490px;
+      width: 450px;
       margin-left: auto;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
       margin-bottom: 32px;
+      &__sky {
+        margin: 0 auto;
+        padding: 0;
+      }
+      &__city {
+        margin-bottom: 20px;
+      }
+      &__temperature {
+        padding-bottom: 28px;
+        &-current {
+          font-size: 70px;
+          padding-bottom: 20px;
+          margin-left: 34px;
+        }
+      }
     }
     &-button {
-      width: 490px;
+      width: 450px;
       margin-left: auto;
     }
     &-date {
-      width: 600px;
+      width: 550px;
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
       margin: 0;
+      &__current-day {
+        padding-top: 28px;
+        font-size: 70px;
+      }
     }
     &-quote {
-      padding-top: 44px;
+      padding-top: 18px;
       width: 375px;
-      margin-right: 100px;
+      margin-right: 50px;
+      &__text {
+        text-align: right;
+      }
+      &__author {
+        text-align: right;
+      }
     }
 
     &-wrapper {

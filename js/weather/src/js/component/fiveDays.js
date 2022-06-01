@@ -187,3 +187,23 @@ refs.nextBtnFiveDays.addEventListener('click', () => {
   refs.fiveDaysWeather.style.scrollBehavior = 'smoth';
   refs.fiveDaysWeather.scrollLeft = refs.fiveDaysWeather.scrollLeft + 140;
 });
+
+refs.moreInfo.onmousedown = () => {
+  let pageX = 0;
+
+  document.onmousemove = e => {
+    if (pageX !== 0) {
+      refs.moreInfo.scrollLeft = refs.moreInfo.scrollLeft + (pageX - e.pageX);
+    }
+    pageX = e.pageX;
+  };
+
+  window.onmouseup = () => {
+    document.onmousemove = null;
+    refs.moreInfo.onmouseup = null;
+  };
+
+  refs.moreInfo.ondragstart = () => {
+    return false;
+  };
+};
