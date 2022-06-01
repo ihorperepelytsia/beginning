@@ -13,6 +13,10 @@ if (load('locationCity') !== undefined) {
   getRequestWeather(load('locationCity'));
   getImageBackground(load('locationCity'));
   getRequest5DaysWeather(load('locationCity'));
+} else {
+  getRequestWeather('london');
+  getImageBackground('london');
+  getRequest5DaysWeather('london');
 }
 
 export async function getRequestWeather(city = 'krakow') {
