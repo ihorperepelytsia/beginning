@@ -89,6 +89,7 @@ function errorr(err) {
   console.warn(`ERROR(${err.code}): ${err.message}`);
 }
 
-function getCoords() {
+function getCoords() {цффцыыццыццыцффццф
   navigator.geolocation.getCurrentPosition(success, errorr, options);
 }
+document.addEventListener('DOMContentLoaded', getCoords);
