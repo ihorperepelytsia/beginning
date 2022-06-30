@@ -1,7 +1,8 @@
 import './styles/styles.scss';
 import '@pnotify/core/BrightTheme.css';
 import '@pnotify/core/dist/PNotify.css';
-import './js/service/getQuote';
+// import './js/service/getQuote';
+import './js/component/changeQuote';
 import './js/component/todayWeatherContent';
 import './js/component/toggleBtnToday';
 import './js/service/getRequestGeo';
